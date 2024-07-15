@@ -1,54 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="shortcut icon" href="../Assets/memoji.png" type="image/x-icon">
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <header>
-    <img src="../Assets/memoji.png" alt="Memoji" id="memoji">
-     
-    <div class="main">
-        <label class="menu-button-wrapper" for="">
-          <input type="checkbox" class="menu-button">
-          <div class="icon-wrapper">
-            <label class="hamburger">
-              <input class="hamburger-input" type="checkbox">
-              <span class="hamburger-line first"></span>
-              <span class="hamburger-line second"></span>
-              <span class="hamburger-line third"></span>
-            </label>
-          </div>
-          <div class="item-list">
-            <div>Home</div>
-            <div>About</div>
-            <div>Profile</div>
-            <div>Contact</div>
-          </div>
-        </label>
-    </header>
-    <h1> Hi, I'm Nesrine.</h1>
-    <p> Algiers, Algeria. </p>
+  <div class="nav_icon">
+  <div class="icon"> <img src="../Assets/memoji.png" alt=""></div>
+  <div class="navigation">
+    <input type="checkbox" class="navigation__checkbox" id="nav-toggle">
+    <label for="nav-toggle" class="navigation__button">
+      <span class="navigation__icon" aria-label="toggle navigation menu"></span>
+    </label>
+    <div class="navigation__background"></div>
+  
+    <nav class="navigation__nav" role="navigation">
+      <ul class="navigation__list">
+        <li class="navigation__item">
+          <a href="#" class="navigation__link"> Home</a>
+        </li>
+        <li class="navigation__item">
+          <a href="#" class="navigation__link"> Project</a>
+        </li>
+        <li class="navigation__item">
+          <a href="#" class="navigation__link"> About</a>
+        </li>
+        <li class="navigation__item">
+          <a href="#" class="navigation__link"> Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
 
-    <div class="skills">
-        <h3>My skills</h3>
-        <img src="../Assets/skills/icons8-html-48.png" alt="html">
-        <img src="../Assets/skills/icons8-css-48.png" alt="css">
-        <img src="../Assets/skills/icons8-javascript-48.png" alt="js">
-    </div>
-
-
-    <footer>
-        <div class="icons">
-        <a href="#"> <img src="../Assets/footer icons/instagram.png" alt="instagram"></a>
-        <a href="#"><img src="../Assets/footer icons/github.png" alt="git"></a>
-        <a href="#"><img src="../Assets/footer icons/linkedin.png" alt="linkedin"></a>
-        <a href="#"><img src="../Assets/footer icons/twitter.png" alt="X"></a>
-    </div>
-    </footer>
 </body>
 </html>
