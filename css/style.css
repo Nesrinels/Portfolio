@@ -237,3 +237,26 @@ dark-blue: #4A676A;
 cream: #FFEAA5;
 yellow: #FFB037;
 */
+
+
+
+footer {
+  background-color: #f1f1f1; /* Adjust as needed */
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+footer  a{
+  font-size: 2em;
+  color: #5EBAF2;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+footer  a:hover{
+  transform: translateY(-10px);
+}
