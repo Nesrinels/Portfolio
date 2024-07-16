@@ -27,7 +27,7 @@ body {
   background-color: #fff;
   border-radius: 50%;
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
-  position: fixed;
+  position: relative;
   top: 1.5rem;
   left: 1.5rem;
   height: 5rem;
@@ -109,7 +109,6 @@ body {
 }
 
 .navigation__list {
-  /*@include center;*/
   position: absolute;
   top: 50%;
   left: 50%;
@@ -229,23 +228,108 @@ body {
   transform: rotate(-135deg);
 }
 
-/*-----------------------*/
+/* first */
+.first{
+  margin-top: 50px;
+  text-align: center;
+}
+.first h1{
+font-size: 50px;
+}
+/* presentation */
+.presentation{
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+.imgpres img{
+  width: 200px;
+  margin-right:300px ;
+}
+.textpres {
+  margin-left: 250px;
+  padding: 20px;
+  border-radius: 10px;
+  background: #f1f1f1;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
 
-/*
-light-blue: #C1D0D0;
-dark-blue: #4A676A;
-cream: #FFEAA5;
-yellow: #FFB037;
-*/
+/* skills */
+.skills{
+  margin-top: 50px;
+  margin-left: 250px;
+  margin-right: 300px;
+  margin-bottom: 50px;
+  padding: 20px;
+  border-radius: 10px;
+  background: #f1f1f1;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.skillimg{
+  text-align: center;
+}
 
+/* projects */
+.projectimg img{
+  width: 400px;
+  border-radius: 10px;
+  }
+/* first project */
+.project1{
+  display: flex;
+  /* background: #62B2E8; */
+  background: #f1f1f1;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin-left: 250px;
+  margin-right: 300px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  padding: 20px;
+  transform: 0.4s ease-in-out ;
+}
+.project1:hover{
+  background: #62B2E8;
+  transform: scale(1.05);
+}
+/* second project */
+.project2{
+  display: flex;
+  background: #f1f1f1;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin-left: 250px;
+  margin-right: 300px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  padding: 20px;
+  transform: 0.4s ease-in-out ;
+}
+.project2:hover{
+  background: #62B2E8;
+  transform: scale(1.05);
+}
+/* tird project */
+.project3{
+  display: flex;
+  background: #f1f1f1;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin-left: 250px;
+  margin-right: 300px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  padding: 20px;
+  transform: 0.4s ease-in-out ;
+}
+.project3:hover{
+  background: #62B2E8;
+  transform: scale(1.05);
+}
 
-
+/* footer */
 footer {
-  background-color: #f1f1f1; /* Adjust as needed */
+  background-color: #f1f1f1; 
   padding: 20px;
   text-align: center;
   width: 100%;
-  position: fixed;
   bottom: 0;
   left: 0;
 }
