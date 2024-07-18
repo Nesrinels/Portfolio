@@ -274,10 +274,14 @@ font-size: 50px;
   width: 400px;
   border-radius: 10px;
   }
+  a{
+    text-decoration: none;
+    color: #000000;
+  }
 /* first project */
+
 .project1{
   display: flex;
-  /* background: #62B2E8; */
   background: #f1f1f1;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   margin-left: 250px;
