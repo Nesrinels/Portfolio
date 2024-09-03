@@ -305,7 +305,7 @@ font-size: 50px;
   margin-bottom: 50px;
   border-radius: 10px;
   padding: 20px;
-  transform: 0.4s ease-in-out ;
+  transition: 0.3s ease-in-out ;
 }
 .project2:hover{
   background: #62B2E8;
@@ -321,13 +321,33 @@ font-size: 50px;
   margin-bottom: 50px;
   border-radius: 10px;
   padding: 20px;
-  transform: 0.4s ease-in-out ;
+  transition: 0.3s ease-in-out ;
 }
 .project3:hover{
   background: #62B2E8;
   transform: scale(1.05);
 }
+/* forth project */
 
+.project4{
+  display: flex;
+  background: #f1f1f1;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin-left: 250px;
+  margin-right: 300px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  padding: 20px;
+  transition: 0.3s ease-in-out ;
+}
+
+.project4:hover{
+  background: #62B2E8;
+  transform: scale(1.05);
+}
+.group{
+  display: flex;
+}
 /* footer */
 footer {
   background-color: #f1f1f1; 
